@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlayingActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_background"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/songs_activity"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@color/category_songs"
+            android:text="@string/category_songs"
+            android:textColor="@color/white_background" />
+
+        <Button
+            android:id="@+id/albums_activity"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#004D40"
+            android:text="Albums"
+            android:textColor="@color/white_background" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="324dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_launcher_foreground" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="More Than This"
+                    android:textAlignment="center"
+                    android:textColor="@color/black_background"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="One Direction"
+                    android:textAlignment="center"
+                    android:textColor="@color/black_background"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/skip_back_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="66dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/category_playing"
+                    android:src="@drawable/ic_skip_back" />
+
+                <ImageButton
+                    android:id="@+id/play_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="66dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/category_playing"
+                    android:src="@drawable/ic_play" />
+
+                <ImageButton
+                    android:id="@+id/skip_forward_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="66dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/category_playing"
+                    android:src="@drawable/ic_skip_forward" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

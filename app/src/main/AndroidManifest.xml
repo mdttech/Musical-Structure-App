@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.music">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SongsActivity"
+            android:label="@string/category_songs" />
+        <activity
+            android:name=".PlayingActivity"
+            android:label="@string/category_playing" />
+        <activity android:name=".AlbumsActivity"
+            android:label="Albums"/>
+        <activity android:name=".FourActivity"
+            android:label="Four Album"/>
+        <activity android:name=".TakeMeHomeActivity"
+            android:label="Take Me Home Album"/>
+        <activity android:name=".UpAllNightActivity"
+            android:label="Up All Night Album"/>
+        <activity android:name=".MidnightMemoriesActivity"
+            android:label="Midnight Memories Album"/>
+        <activity android:name=".InsomniacActivity"
+            android:label="Insomniac Album"/>
+        <activity android:name=".EuphoriaActivity"
+            android:label="Euphoria Album"/>
+        <activity android:name=".EscapeActivity"
+            android:label="Escape Album"/>
+        <activity android:name=".SexAndLoveActivity"
+            android:label="Escape Album">
+
+        </activity>
+    </application>
+
+</manifest>

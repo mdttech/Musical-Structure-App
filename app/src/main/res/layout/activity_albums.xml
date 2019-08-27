@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlbumsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_background"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/songs_activity"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@color/category_songs"
+            android:text="@string/category_songs"
+            android:textColor="@color/white_background" />
+
+        <Button
+            android:id="@+id/playing_activity"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#004D40"
+            android:text="@string/category_playing"
+            android:textColor="@color/white_background" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/four_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Four"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black_background"></View>
+
+            <TextView
+                android:id="@+id/midnight_memories_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Midnight Memories"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black_background"></View>
+
+            <TextView
+                android:id="@+id/take_me_home_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Take Me Home"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black_background"></View>
+
+            <TextView
+                android:id="@+id/up_all_night_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Up All Night"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black_background"></View>
+
+            <TextView
+                android:id="@+id/sex_and_love_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Sex And Love"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black_background"></View>
+
+            <TextView
+                android:id="@+id/euphoria_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Euphoria"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black_background"></View>
+
+            <TextView
+                android:id="@+id/insomniac_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Insomniac"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black_background"></View>
+
+
+            <TextView
+                android:id="@+id/escape_album"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_gravity="center_vertical"
+                android:background="#004D40"
+                android:padding="16dp"
+                android:text="Escape"
+                android:textAlignment="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white_background"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for app -->
+    <color name="white_background">#FFFFFF</color>
+    <color name="black_background">#000000</color>
+
+    <!-- Background color for the songs category -->
+    <color name="category_songs">#4A148C</color>
+
+    <!-- Background color for the favourites category -->
+    <color name="category_albums">#004D40</color>
+
+    <!-- Background color for the playing category -->
+    <color name="category_playing">#E65100</color>
+
+
+</resources>

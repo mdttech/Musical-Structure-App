@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Music</string>
+
+
+    <string name="category_songs">Songs</string>
+
+
+    <string name="category_playing">Playing</string>
+
+    <string name="category_song_name">More Than This</string>
+
+    <string name="category_artist_name">One Direction</string>
+
+</resources>
